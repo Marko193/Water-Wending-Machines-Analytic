@@ -1,0 +1,114 @@
+.sliderContainer{
+  background-color: transparent !important;
+}
+
+.sliderHeader{
+  font-weight: bold;
+  background-color: #24dac6 !important
+}
+
+.sliderBody{
+  height: 100%;
+  display: block;
+  flex: auto !important;
+  overflow: no-content !important;
+  width: 100%;
+}
+
+.closeBtn{
+  width: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.right-sidebar-modal-form{
+  padding:10px;
+}
+
+.form-group input:focus{
+  border: 1px solid $sidebar-li;
+}
+
+#right-sidebar-modal-success-btn{
+  float:left;
+}
+
+#right-sidebar-check-label{
+  margin-top:6px;
+}
+
+#right-sidebar-check-input{
+  border-radius: 0px !important;
+  background-color: lightgray;
+  font-size:24px;
+}
+
+#right-sidebar-check-input:checked{
+  background-color: #24dac6
+}
+
+#right-sidebar-submit-btn{
+  font-size:18px;
+  border: 1px solid $sidebar-li;
+  color: $sidebar-li;
+}
+
+.right-sidebar-form-delimiter{
+  margin-top:30px;
+  width:100%;
+  color:black;
+}
+
+#edit-tag-connected-devices-block{
+  margin-top:30px;
+}
+
+#edit-tag-connected-devices-thead{
+  border-top: white !important;
+}
+
+.device-telephone{
+  border-top: 1px solid white !important;
+  float:right;
+}
+
+.device-imei{
+  border-top: 1px solid white !important;
+}
+
+.affiliate_devices_info{
+  float:right;
+}
+
+.settings-imei,
+.settings-affiliates{
+
+}
+
+.settings-affiliates-thead{
+  color: gray;
+}
+
+.settings-affiliates-label{
+  font-size:12px;
+
+}
+
+#connected-devices-table thead th:nth-child(1){
+  font-size: 16px;
+  font-weight: normal !important;
+}
+
+#delete-connected-device{
+  display:block;
+  margin-top:10px;
+  margin-left:-10px;
+  font-size:16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#delete-connected-device:hover{
+  color:red;
+}

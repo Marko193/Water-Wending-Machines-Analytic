@@ -1,0 +1,44 @@
+.bs-select{
+  margin-top: -10px !important;
+}
+
+.form-control-sm{
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 2;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  padding-right: 100px;
+  margin-top: -28px !important;
+}
+
+.form-control-sm:focus{
+  border-color: 1px solid $sidebar-li;
+}
+
+//styles to a specific column of a cards-table
+//#lists-cards-table thead>tr>:nth-child(1),
+//#lists-cards-table tbody>tr>:nth-child(1){
+//  text-align:right;
+//}
+
+//styles to a table row with specific attribute value (data-test="table-foot")
+.table-bordered > thead[data-test="table-foot"]{
+  display:none;
+}
+
+.total-cards-info{
+  margin-top:-20px;
+  margin-bottom: 40px;
+  color: #777b85;
+}
+
+#cards-list-code{
+  color: #777b85;
+}

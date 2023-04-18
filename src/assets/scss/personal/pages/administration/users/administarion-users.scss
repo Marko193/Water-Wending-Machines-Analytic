@@ -1,0 +1,27 @@
+#isActive{
+  font-size:20px;
+  //cursor:pointer;
+}
+
+#editUser,
+#editRecord,
+#watchRecord,
+#deleteRecord,
+#edit-tag-delete-connected-device{
+  font-size:16px;
+  cursor:pointer;
+}
+
+#watchRecord:hover,
+#editUser:hover,
+#editRecord:hover{
+  color: $sidebar-li;
+  font-weight:bold;
+}
+
+#deleteRecord:hover,
+#edit-tag-delete-connected-device:hover{
+  color: red;
+  font-weight:bold;
+}
+

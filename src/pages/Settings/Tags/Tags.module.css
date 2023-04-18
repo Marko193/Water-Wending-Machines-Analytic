@@ -1,0 +1,17 @@
+.customButton{
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.customButton:hover{
+    color: red !important;
+}
+
+.customModals{
+    margin-top: 10vh !important;
+}

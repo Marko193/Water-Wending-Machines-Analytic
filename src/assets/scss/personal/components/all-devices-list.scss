@@ -1,0 +1,129 @@
+#all-devices-list-table {
+  border: 1px solid lightgray;
+}
+
+.record-id{
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.all-devices-list-row {
+  background-color: beige;
+}
+
+.th-all-devices-description {
+  color: #777b85;
+  font-size: 12px;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.all-devices-list-record-id {
+  color: #777b85;
+  font-size: 12px;
+}
+
+.all-devices-list-device-name {
+  border: 0;
+  font-size: 14px;
+  padding-top: 2px;
+  border-radius: 0;
+  color: #2a96b8;
+  font-weight: bold;
+}
+
+.all-devices-list-device-location {
+  font-size: 12px;
+  color: #777b85;
+  padding-left: 4px;
+}
+
+.record-water-size,
+.record-device-income,
+.record-water-trend{
+  font-weight: bold;
+  color: #2a96b8;
+  text-align: right;
+  cursor:pointer;
+}
+
+.record-device-state{
+  text-align: center;
+}
+
+.record-device-state-on{
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.record-device-state-off{
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.record-device-state-inactive{
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.record-device-bills{
+  text-align: right;
+  cursor:pointer;
+}
+
+.record-water-medium,
+.all-devices-list-record-id-medium{
+  background-color: orange;
+}
+
+.all-devices-list-record-id-medium,
+.all-devices-list-record-id-large{
+  font-size:12px;
+}
+
+.record-water-large,
+.all-devices-list-record-id-large{
+  color:white;
+  background-color: red;
+}
+
+.record-water-month-income{
+  color: black;
+  font-weight: normal;
+}
+
+.record-device-progress{
+  text-align: center;
+}
+
+#progressUp-percent-arrow{
+  margin-left:5px;
+  font-size:18px;
+  color: green;
+}
+
+#progressDown-percent-arrow{
+  margin-left:5px;
+  font-size:18px;
+  color: red;
+}
+
+.record-device-progress{
+  text-align: right;
+}
+
